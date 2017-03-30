@@ -1,6 +1,7 @@
 # Project Information
 site_name: eChecks Style Guide
 site_description: eChecks Style Guide
+repo_url: https://github.com/joshminnie/style-guide
 
 # Copyright
 copyright: 'Copyright &copy; 2017 <a href="https://deluxe.com" target="_blank">Deluxe</a>'
@@ -23,5 +24,3 @@ markdown_extensions:
   - codehilite
 
 # Documentation
-docs_dir: 'build'
-site_dir: 'docs'
