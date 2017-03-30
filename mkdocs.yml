@@ -1,0 +1,25 @@
+# Project Information
+site_name: eChecks Style Guide
+site_description: eChecks Style Guide
+
+# Copyright
+copyright: 'Copyright &copy; 2017 <a href="https://deluxe.com" target="_blank">Deluxe</a>'
+
+# Theme
+theme: 'material'
+# http://squidfunk.github.io/mkdocs-material/getting-started/#full-example
+
+# Options
+extra:
+  font:
+    text: 'Lato'
+  palette:
+    primary: 'red'
+    accent: 'red'
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - codehilite
+
+# Documentation
