@@ -1,10 +1,10 @@
 # Project Information
-site_name: eChecks Style Guide
-site_description: eChecks Style Guide
+site_name: Coding Guidelines
+site_description: Coding Guidelines
 repo_url: https://github.com/joshminnie/style-guide
 
 # Copyright
-copyright: 'Copyright &copy; 2017 <a href="https://deluxe.com" target="_blank">Deluxe</a>'
+copyright: '&copy;2017 <a href="https://nissisolutions.com" target="_blank">Nissi Solutions</a>'
 
 # Theme
 theme: 'material'
@@ -12,11 +12,12 @@ theme: 'material'
 
 # Options
 extra:
+  logo: 'assets/images/nissisolutions-logo.png'
   font:
     text: 'Lato'
   palette:
-    primary: 'red'
-    accent: 'red'
+    primary: 'light blue'
+    accent: 'light blue'
 
 # Extensions
 markdown_extensions:
