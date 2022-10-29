@@ -1,0 +1,739 @@
+
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Coding Guidelines">
+      
+      
+      
+      
+        <link rel="shortcut icon" href="../assets/images/favicon.ico">
+      
+      <meta name="generator" content="mkdocs-0.16.1, mkdocs-material-1.0.5">
+    
+    
+      
+        <title>Stylesheet Guidelines - Coding Guidelines</title>
+      
+    
+    
+      <script src="../assets/javascripts/modernizr-56ade86843.js"></script>
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/application-9c62e3c932.css">
+      
+        <link rel="stylesheet" href="../assets/stylesheets/application-02ce7adcc2.palette.css">
+      
+    
+    
+      
+        
+        
+        
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700|Roboto+Mono">
+        <style>body,input{font-family:"Lato","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+      <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    
+    
+    
+  </head>
+  
+  
+  
+  
+    <body data-md-color-primary="light-blue" data-md-color-accent="light-blue">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+          <svg xmlns="http://www.w3.org/2000/svg" width="416" height="448" viewBox="0 0 416 448" id="github"><path fill="currentColor" d="M160 304q0 10-3.125 20.5t-10.75 19T128 352t-18.125-8.5-10.75-19T96 304t3.125-20.5 10.75-19T128 256t18.125 8.5 10.75 19T160 304zm160 0q0 10-3.125 20.5t-10.75 19T288 352t-18.125-8.5-10.75-19T256 304t3.125-20.5 10.75-19T288 256t18.125 8.5 10.75 19T320 304zm40 0q0-30-17.25-51T296 232q-10.25 0-48.75 5.25Q229.5 240 208 240t-39.25-2.75Q130.75 232 120 232q-29.5 0-46.75 21T56 304q0 22 8 38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0 37.25-1.75t35-7.375 30.5-15 20.25-25.75T360 304zm56-44q0 51.75-15.25 82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5T212 416q-19.5 0-35.5-.75t-36.875-3.125-38.125-7.5-34.25-12.875T37 371.5t-21.5-28.75Q0 312 0 260q0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25 30.875Q171.5 96 212 96q37 0 70 8 26.25-20.5 46.75-30.25T376 64q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34 99.5z"/></svg>
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="drawer">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="search">
+    <label class="md-overlay" data-md-component="overlay" for="drawer"></label>
+    
+      <header class="md-header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href=".." title="Coding Guidelines" class=" md-logo  md-header-nav__button">
+          
+            <img src="../assets/images/nissisolutions-logo.png" width="24" height="24">
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <span class="md-flex__ellipsis md-header-nav__title">
+          
+            
+              
+            
+            Stylesheet Guidelines
+          
+        </span>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          <label class="md-icon md-icon--search md-header-nav__button" for="search"></label>
+          
+<div class="md-search" data-md-component="search">
+  <div class="md-search__overlay"></div>
+  <div class="md-search__inner">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="Search" accesskey="s" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false">
+      <label class="md-icon md-search__icon" for="search"></label>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result"></div>
+      </div>
+    </div>
+  </div>
+</div>
+        
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+          <div class="md-header-nav__source">
+            
+              
+
+
+  
+
+
+  <a href="https://github.com/joshminnie/style-guide" title="Go to repository" class="md-source" data-md-source="github">
+    
+      <div class="md-source__icon">
+        <svg viewBox="0 0 24 24" width="24" height="24">
+          <use xlink:href="#github" width="24" height="24"></use>
+        </svg>
+      </div>
+    
+    <div class="md-source__repository">
+      GitHub
+    </div>
+  </a>
+
+            
+          </div>
+      </div>
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      <main class="md-main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary">
+  <label class="md-nav__title md-nav__title--site" for="drawer">
+    <i class=" md-logo  md-nav__button">
+      
+        <img src="../assets/images/nissisolutions-logo.png">
+      
+    </i>
+    Coding Guidelines
+  </label>
+  
+    <div class="md-nav__source">
+      
+
+
+  
+
+
+  <a href="https://github.com/joshminnie/style-guide" title="Go to repository" class="md-source" data-md-source="github">
+    
+      <div class="md-source__icon">
+        <svg viewBox="0 0 24 24" width="24" height="24">
+          <use xlink:href="#github" width="24" height="24"></use>
+        </svg>
+      </div>
+    
+    <div class="md-source__repository">
+      GitHub
+    </div>
+  </a>
+
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  <li class="md-nav__item">
+    
+      <a href=".." title="Home" class="md-nav__link">
+        Home
+      </a>
+    
+  </li>
+
+    
+      
+      
+  <li class="md-nav__item">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="toc">
+        Stylesheet Guidelines
+      </label>
+    
+    <a href="./" title="Stylesheet Guidelines" class="md-nav__link md-nav__link--active">
+      Stylesheet Guidelines
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#html" title="HTML" class="md-nav__link">
+    HTML
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#general-formatting" title="General formatting" class="md-nav__link">
+    General formatting
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#boolean-attributes" title="Boolean attributes" class="md-nav__link">
+    Boolean attributes
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lean-markup" title="Lean markup" class="md-nav__link">
+    Lean markup
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#forms" title="Forms" class="md-nav__link">
+    Forms
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tables" title="Tables" class="md-nav__link">
+    Tables
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#scss" title="SCSS" class="md-nav__link">
+    SCSS
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#spacing" title="Spacing" class="md-nav__link">
+    Spacing
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#formatting" title="Formatting" class="md-nav__link">
+    Formatting
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#misc" title="Misc" class="md-nav__link">
+    Misc
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#examples" title="Examples" class="md-nav__link">
+    Examples
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#file-organization" title="File organization" class="md-nav__link">
+    File organization
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pixels-vs-ems" title="Pixels vs. ems" class="md-nav__link">
+    Pixels vs. ems
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#class-naming-conventions" title="Class naming conventions" class="md-nav__link">
+    Class naming conventions
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#specificity-classes-vs-ids" title="Specificity (classes vs. ids)" class="md-nav__link">
+    Specificity (classes vs. ids)
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#css-specificity-guidelines" title="CSS Specificity guidelines" class="md-nav__link">
+    CSS Specificity guidelines
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#html" title="HTML" class="md-nav__link">
+    HTML
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#general-formatting" title="General formatting" class="md-nav__link">
+    General formatting
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#boolean-attributes" title="Boolean attributes" class="md-nav__link">
+    Boolean attributes
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lean-markup" title="Lean markup" class="md-nav__link">
+    Lean markup
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#forms" title="Forms" class="md-nav__link">
+    Forms
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tables" title="Tables" class="md-nav__link">
+    Tables
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#scss" title="SCSS" class="md-nav__link">
+    SCSS
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#spacing" title="Spacing" class="md-nav__link">
+    Spacing
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#formatting" title="Formatting" class="md-nav__link">
+    Formatting
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#misc" title="Misc" class="md-nav__link">
+    Misc
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#examples" title="Examples" class="md-nav__link">
+    Examples
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#file-organization" title="File organization" class="md-nav__link">
+    File organization
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pixels-vs-ems" title="Pixels vs. ems" class="md-nav__link">
+    Pixels vs. ems
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#class-naming-conventions" title="Class naming conventions" class="md-nav__link">
+    Class naming conventions
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#specificity-classes-vs-ids" title="Specificity (classes vs. ids)" class="md-nav__link">
+    Specificity (classes vs. ids)
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#css-specificity-guidelines" title="CSS Specificity guidelines" class="md-nav__link">
+    CSS Specificity guidelines
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+               
+                 <a href="https://github.com/joshminnie/style-guide/edit/master/docs/guidelines.md" title="Edit this page" class="md-icon md-content__edit">edit</a>
+               
+              
+                
+                <h1 id="stylesheet-guidelines">Stylesheet Guidelines</h1>
+<p>Best practices and guidelines for writing HTML and CSS with approachable formatting, syntax, and more.</p>
+<h2 id="html">HTML</h2>
+<h3 id="general-formatting">General formatting</h3>
+<ul>
+<li>Use soft-tabs with a two space indent. Spaces are the only way to guarantee code renders the same in any person’s environment.</li>
+<li>Paragraphs of text should always be placed in a <code>&lt;p&gt;</code> tag. Never use multiple <code>&lt;br&gt;</code> tags.</li>
+<li>Items in list form should always be in <code>&lt;ul&gt;</code>, <code>&lt;ol&gt;</code>, or <code>&lt;dl&gt;</code>. Never use a set of <code>&lt;div&gt;</code> or <code>&lt;p&gt;</code>.</li>
+<li>Every form input that has text attached should utilize a <code>&lt;label&gt;</code> tag. Especially radio or checkbox elements.</li>
+<li>Even though quotes around attributes is optional, always put quotes (<code>"</code>) around attributes for readability.</li>
+<li>Avoid writing closing tag comments, like <code>&lt;!-- /.element --&gt;</code>. This just adds to page load time. Plus, most editors have indentation guides and open-close tag highlighting.</li>
+<li>Avoid trailing slashes in self-closing elements. For example, <code>&lt;br&gt;</code>, <code>&lt;hr&gt;</code>, <code>&lt;img&gt;</code>, and <code>&lt;input&gt;</code>.</li>
+<li>Don’t set <code>tabindex</code> manually — rely on the browser to set the order.</li>
+</ul>
+<pre class="codehilite"><code class="language-html">&lt;p class=&quot;line-note&quot; data-attribute=&quot;106&quot;&gt;
+  This is my paragraph of special text.
+&lt;/p&gt;</code></pre>
+
+
+<h3 id="boolean-attributes">Boolean attributes</h3>
+<p>Many attributes don’t require a value to be set, like disabled or checked, so don’t set them.</p>
+<pre class="codehilite"><code class="language-html">&lt;input type=&quot;text&quot; disabled&gt;
+
+&lt;input type=&quot;checkbox&quot; value=&quot;1&quot; checked&gt;
+
+&lt;select&gt;
+  &lt;option value=&quot;1&quot; selected&gt;1&lt;/option&gt;
+&lt;/select&gt;</code></pre>
+
+
+<p>For more information, <a href="http://www.whatwg.org/specs/web-apps/current-work/multipage/common-microsyntaxes.html#boolean-attributes">read the WhatWG section</a>.</p>
+<h3 id="lean-markup">Lean markup</h3>
+<p>Whenever possible, avoid superfluous parent elements when writing HTML. Many times this requires iteration and refactoring, but produces less HTML. For example:</p>
+<pre class="codehilite"><code class="language-html">&lt;!-- Not so great --&gt;
+&lt;span class=&quot;avatar&quot;&gt;
+  &lt;img src=&quot;...&quot;&gt;
+&lt;/span&gt;
+
+&lt;!-- Better --&gt;
+&lt;img class=&quot;avatar&quot; src=&quot;...&quot;&gt;</code></pre>
+
+
+<h3 id="forms">Forms</h3>
+<ul>
+<li>Lean towards radio or checkbox lists instead of select menus.</li>
+<li>Wrap radio and checkbox inputs and their text in <code>&lt;label&gt;</code>s. No need for for attributes here — the wrapping automatically associates the two.</li>
+<li>Form buttons should always include an explicit <code>type</code>. Use primary buttons for the <code>type="submit"</code> button and regular buttons for <code>type="button"</code>.</li>
+<li>The primary form button must come first in the DOM, especially for forms with multiple submit buttons. The visual order should be preserved with <code>float: right;</code> on each button.</li>
+</ul>
+<h3 id="tables">Tables</h3>
+<p>Make use of <code>&lt;thead&gt;</code>, <code>&lt;tfoot&gt;</code>, <code>&lt;tbody&gt;</code>, and <code>&lt;th&gt;</code> tags (and <code>scope</code> attribute) when appropriate. (Note: <code>&lt;tfoot&gt;</code> goes above <code>&lt;tbody&gt;</code> for speed reasons. You want the browser to load the footer before a table full of data.)</p>
+<pre class="codehilite"><code class="language-html">&lt;table summary=&quot;This is a chart of invoices for 2011.&quot;&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th scope=&quot;col&quot;&gt;Table header 1&lt;/th&gt;
+      &lt;th scope=&quot;col&quot;&gt;Table header 2&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tfoot&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Table footer 1&lt;/td&gt;
+      &lt;td&gt;Table footer 2&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tfoot&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Table data 1&lt;/td&gt;
+      &lt;td&gt;Table data 2&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</code></pre>
+
+
+<h2 id="scss">SCSS</h2>
+<h3 id="spacing">Spacing</h3>
+<ul>
+<li>Use soft-tabs with a two space indent. Spaces are the only way to guarantee code renders the same in any person’s environment.</li>
+<li>Put spaces after <code>:</code> in property declarations.</li>
+<li>Put spaces before <code>{</code> in rule declarations.</li>
+<li>Put line breaks between rulesets.</li>
+<li>When grouping selectors, keep individual selectors to a single line.</li>
+<li>Place closing braces of declaration blocks on a new line.</li>
+<li>Each declaration should appear on its own line for more accurate error reporting.</li>
+</ul>
+<h3 id="formatting">Formatting</h3>
+<ul>
+<li>Use hex color codes <code>#000</code> unless using <code>rgba()</code> in raw CSS (SCSS’ <code>rgba()</code> function is overloaded to accept hex colors as a param, e.g., <code>rgba(#000, .5)</code>).</li>
+<li>Use <code>//</code> for comment blocks (instead of <code>/* */</code>).</li>
+<li>Avoid specifying units for zero values, e.g., margin: 0; instead of margin: 0px;.</li>
+<li>Strive to limit use of shorthand declarations to instances where you must explicitly set all the available values.</li>
+</ul>
+<h3 id="misc">Misc</h3>
+<p>As a rule of thumb, avoid unnecessary nesting in SCSS. At most, aim for three levels. If you cannot help it, step back and rethink your overall strategy (either the specificity needed, or the layout of the nesting).</p>
+<h3 id="examples">Examples</h3>
+<p>Here are some good examples that apply the above guidelines:</p>
+<pre class="codehilite"><code class="language-scss">// Example of good basic formatting practices
+.styleguide-format {
+  color: #000;
+  background-color: rgba(0, 0, 0, .5);
+  border: 1px solid #0f0;
+}
+
+// Example of individual selectors getting their own lines (for error reporting)
+.multiple,
+.classes,
+.get-new-lines {
+  display: block;
+}
+
+// Avoid unnecessary shorthand declarations
+.not-so-good {
+  margin: 0 0 20px;
+}
+.good {
+  margin-bottom: 20px;
+}</code></pre>
+
+
+<h2 id="file-organization">File organization</h2>
+<p><em>Coming soon</em></p>
+<h2 id="pixels-vs-ems">Pixels vs. ems</h2>
+<ul>
+<li>Use <code>px</code> for <code>font-size</code>, because it offers absolute control over text.</li>
+<li>Unit-less <code>line-height</code> is preferred because it does not inherit a percentage value of its parent element, but instead is based on a multiplier of the <code>font-size</code>.</li>
+</ul>
+<h2 id="class-naming-conventions">Class naming conventions</h2>
+<p>Never reference <code>js-</code> prefixed class names from CSS files. <code>js-</code> are used exclusively from JS files.</p>
+<h2 id="specificity-classes-vs-ids">Specificity (classes vs. ids)</h2>
+<p>Elements that occur exactly once inside a page should use IDs, otherwise, use classes. When in doubt, use a class name.</p>
+<ul>
+<li><strong>Good</strong> candidates for ids: header, footer, modal popups.</li>
+<li><strong>Bad</strong> candidates for ids: navigation, item listings, item view pages (ex: issue view).</li>
+</ul>
+<p>When styling a component, start with an element + class namespace (prefer class names over ids), prefer direct descendant selectors by default, and use as little specificity as possible. Here is a good example:</p>
+<pre class="codehilite"><code class="language-html">&lt;ul class=&quot;category-list&quot;&gt;
+  &lt;li class=&quot;item&quot;&gt;Category 1&lt;/li&gt;
+  &lt;li class=&quot;item&quot;&gt;Category 2&lt;/li&gt;
+  &lt;li class=&quot;item&quot;&gt;Category 3&lt;/li&gt;
+&lt;/ul&gt;</code></pre>
+
+
+<pre class="codehilite"><code class="language-scss">.category-list { // element + class namespace
+
+  // Direct descendant selector &gt; for list items
+  &gt; li {
+    list-style-type: disc;
+  }
+
+  // Minimal specificity for all links
+  a {
+    color: #f00;
+  }
+}</code></pre>
+
+
+<h3 id="css-specificity-guidelines">CSS Specificity guidelines</h3>
+<ul>
+<li>If you must use an id selector (<code>#selector</code>) make sure that you have no more than one in your rule declaration. A rule like <code>#header .search #quicksearch { ... }</code> is considered harmful.</li>
+<li>When modifying an existing element for a specific use, try to use specific class names. Instead of <code>.listings-layout.bigge</code>r use rules like <code>.listings-layout.listings-bigger</code>. Think about <code>ack/greping</code> your code in the future.</li>
+<li>The class names <code>disabled</code>, <code>mousedown</code>, <code>danger</code>, <code>hover</code>, <code>selected</code>, and <code>active</code> should always be namespaced by a class (<code>button.selected</code> is a good example).</li>
+</ul>
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href=".." title="Home" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Home
+              </span>
+            </div>
+          </a>
+        
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+          <div class="md-footer-copyright__highlight">
+            &copy;2017 <a href="https://nissisolutions.com" target="_blank">Nissi Solutions</a>
+          </div>
+        
+        powered by
+        <a href="http://www.mkdocs.org" title="MkDocs">MkDocs</a>
+        and
+        <a href="http://squidfunk.github.io/mkdocs-material/" title="Material for MkDocs">
+          Material for MkDocs</a>
+      </div>
+      
+        
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../assets/javascripts/application-f7ac33b6fb.js"></script>
+      <script>app.initialize({url:{base:".."}})</script>
+      
+    
+    
+      
+    
+  </body>
+</html>
